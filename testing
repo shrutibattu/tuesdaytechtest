@@ -1,0 +1,17 @@
+Software Testing is a process:
+As Software Testing starts with understanding requirements and continues with document preparation like test plan, test strategy, test cases, execution of test cases, preparation of test reports and test summary, a cycle of process is followed and it makes the task (=testing) more fruitful.
+Software Testing is about improving quality:
+The ultimate purpose of software testing is not to find bugs but to make the product qualitative. As a tester, you are contributing to improvements in product quality.
+Software Testing is about building confidence in the product:
+plan the testing
+test policy
+quality management plan
+test strategy
+test driven devolopment
+
+calculator project:
+Have used cypress testing to ensure all the outcome of the functions are true when they run.
+
+morse code translator project: Have used TDD to write the code so that the code does not fail.
+
+
