@@ -1,0 +1,39 @@
+
+
+/**** Widget Container ****/
+.widgetContainer {
+    display: grid;
+    /* use repeate and no need of rows */
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 100px 100px 100px;
+    & > .special-widget {
+        border: 1px solid black;
+    }
+}
+/**** Widget ****/
+.widget {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black
+    
+    &__label{
+    height: 20px;
+    }
+    }
+    /**** Specialised Widget ****/
+  
+    .special__widget {
+        background: grey;
+        row: 1;
+        &__content__red {
+            background: red;
+        }
+        &.special-widget__disabled {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+        &::hover {
+            border-color: blue;
+        }
+    }
